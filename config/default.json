@@ -1,0 +1,26 @@
+{
+  "reNotifyHours": 8,
+  "twilio": {
+    "smsFromNo": "+1<ADD-SMS-FROM-HERE>",
+    "accountSid": "<ADD-ACCOUNT-SID-HERE>",
+    "authToken": "<ADD-AUTH-TOKEN-HERE>",
+    "cacheDb": "sqlite://./db/sends.sqlite"
+  },
+  "google": {
+    "key": "<ADD-GOOGLE-API-KEY-HERE>",
+    "cacheDb": "sqlite://./db/distances.sqlite"
+  },
+  "cvs": {
+    "headers": {
+       "authority": "www.cvs.com",
+       "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+       "accept": "*/*",
+       "accept-language": "en-US,en;q=0.9,de;q=0.8,es;q=0.7,fr;q=0.6,it;q=0.5",
+       "sec-fetch-dest": "empty",
+       "sec-fetch-mode": "cors",
+       "sec-fetch-site": "same-origin",
+       "referer": "https://www.cvs.com/immunizations/covid-19-vaccine",
+      "cookie": "QuantumMetricSessionLink=https://cvs.quantummetric.com/#/users/search?autoreplay=true&qmsessioncookie=4db06b57c18e36538e0568f42bf0d022&ts=1613926317-1614012717; pe=p1; acctdel_v1=on; adh_new_ps=on; adh_ps_pickup=on; adh_ps_refill=on; buynow=off; sab_displayads=on; db-show-allrx=on; disable-app-dynamics=on; disable-sac=on; dpp_cdc=off; dpp_drug_dir=off; dpp_sft=off; getcust_elastic=on; echome_lean6=off-p0; enable_imz=on; enable_imz_cvd=on; enable_imz_reschedule_instore=off; enable_imz_reschedule_clinic=off; flipp2=on; gbi_cvs_coupons=true; ice-phr-offer=off; v3redirecton=false; mc_cloud_service=on; mc_hl7=on; mc_ui_ssr=off-p2; mc_videovisit=on; memberlite=on; pivotal_forgot_password=off-p0; pivotal_sso=off-p0; pbmplaceorder=off; pbmrxhistory=on; ps=on; refill_chkbox_remove=off-p0; rxdanshownba=off; rxdfixie=on; rxd_bnr=on; rxd_dot_bnr=on; rxdpromo=on; rxduan=on; rxlite=on; rxlitelob=off; rxm=on; rxm_phone_dob=off-p1; rxm_demo_hide_LN=off; rxm_phdob_hide_LN=on; rxm_rx_challenge=on; s2c_akamaidigitizecoupon=on; s2c_digitizecoupon=on; s2c_dmenrollment=off-p0; s2c_herotimer=off-p0; s2c_papercoupon=off-p0; s2c_persistEcCookie=on; s2c_smsenrollment=on; s2cHero_lean6=on; sft_mfr_new=on; sftg=on; show_exception_status=on; v2-dash-redirection=on; _group1=quantum; AMCVS_06660D1556E030D17F000101%40AdobeOrg=1; s_cc=true; _gcl_au=1.1.925785096.1613969516; gbi_visitorId=cklg3s0w800013h8v4pwlsy6k; _4c_mc_=2f1ecd99-2d13-41c8-9623-753073cfb218; QuantumMetricUserID=d32e3eb269c1cb5762cf92b8c0fc3543; CVPF=3qp6qPuJljkP6-sZLbGYvvO4BRg0UR126_3AHCu_TMyNsJdIr1XjPRw; s_cmp=coronavirus-lp-vaccine-sd-statetool; akavpau_vp_www_cvs_com_vaccine_covid19=1614278607~id=f631e4575a28145ef1032fe8436d67ea; mt.v=2.1571027186.1614278007567; DG_IID=8F6E46A0-9D99-3CFC-9935-5ADC9D73FD7C; DG_UID=3BB3FC82-304E-3CC2-BD51-EFA05167EA3B; DG_ZID=F99F8153-1C44-35F9-A0AF-E77F9EC98335; DG_ZUID=38C27086-926C-308B-9DBE-1E854CD0CDC5; DG_HID=7DAE64FA-24BF-3648-97DA-34AF828C2CA0; DG_SID=71.190.191.56:SlY6qaGq7/OCG9Wo3q2KJOo54vTsMYYXawqaMzsPMGc; mc_home_new=off1; s2c_beautyclub=off; s2c_newcard=off; ak_bmsc=6C433326B4A1B81234D0C1471D65ED84173BFB6699220000385F3A60ADF7F22C~plg7wqhIYxb3TDAUBLlKhbUZDUDSNiN+T2fuucaV+J9k5ils0hlpVxHP8r80XuRA5/bIxD4mJOjyN8mepILwJQ/U50TyzOyti04rQwyOBiPoRCojTQpJAS1C/hh3u6CW1WsjXx4Lu+/eN4JtXBU92OFpXRV3LggCHug1rsdyGXdLo2UvTttyRP+DZ8PZxYaCRambh5gxQieniuTOQG6a7gOzJp9/2JUOmHiNTz2z76q0w=; bm_sz=7C6D771F8A4A5B0239825312F498E810~YAAQZvs7Fw/OeMx3AQAA/vMD5Ap8mT4oaPPQLhcyQlzMq5xi+EIni6vc+1vACRZ60FwjPRGGIQ4nyVJ/xSu6z4N/22f3kYNPdNgssU5Djq5j4uThpBnWQs17WGAqwYzMu1bUmE+4LjxS+Ke28Qfn+clYYpibxWvk8mU0nvr7LYu5aD8uFtFQiGdKw3PL; _abck=DE31C877B61F7645843A4053ABB652EC~0~YAAQZvs7FxDOeMx3AQAA/vMD5AUFywbK6LpdqlkE+kBzp9aByUv3Z07TTs/4VLazTqZTEiFxF5jZsouxL2xtqi5AJjg+PYi6xeQ7Y6ljza5D35Rb3XB2Lmp0exhcwMt6FeTX0IeEibp100yf2HHBFEM0CdSLNK9189fQEsYyLASa/r1Hq6Afg+mLBsvfB8NGqJJbQLxhTMnsSpg8o2udMzJCNwU2RlOyWNhAZGjM+8iaUNpl+/gCf0IDdfvjzVcWSqD6zGw6h5uzTvl16UPSUKqYKFt+a7gosDFLgVCaM4CqM3oFHGNAiy2zfcQfG/B1Zt+8/ZpBbq4jXhlfVPF23CyClJs+i6QfNwVStlxHqPTT0FHklw+1+EuzE0K0f30j3C8=~-1~-1~-1; AMCV_06660D1556E030D17F000101%40AdobeOrg=-330454231%7CMCIDTS%7C18685%7CMCMID%7C21339158266288797593908697766300049372%7CMCAAMLH-1615043002%7C7%7CMCAAMB-1615043002%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1614445402s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C3.1.2; gpv_p10=www.cvs.com%2Fimmunizations%2Fcovid-19-vaccine; gbi_sessionId=cklnutm0e00003h91z09xy8rf; QuantumMetricSessionID=8011b4815d8db2b1b0a26bdf08144d85; akavpau_www_cvs_com_general=1614439386~id=f48ccf52a4f36a39235651628fde14e7; qmexp=1614440765464; ADRUM_BT=R:50|g:e9157674-8be4-4343-a14f-76d24628578a2247612|i:81658|e:20|n:customer1_28053a73-9130-49bc-bebe-00daf9afaf35; bm_sv=9E587A80340973B55C93A5DE9B0B0D16~/2KNJd2I7OTqNnMt/thjG35URVH8X89I5U0dQrw7KRsjfSuyXTtfmNT2mfv95R6UFn630LugjWG7d5hqdKt4Gl8Gdv1tmtqdKxV4TVzgzFvLzN//J9J9PslSreyJHgs2La5qlymRTlaeFeLy//xYdg==; RT=\"z=1&dm=cvs.com&si=5925af1f-2676-4b55-bcc1-32d90e05b2a8&ss=klnutjq6&sl=3&tt=6nr&bcn=%2F%2F36cc2473.akstat.io%2F&nu=1ssnj1p3&cl=gh2m\"; gpv_e5=cvs%7Cdweb%7Cimmunizations%7Ccovid-19-vaccine%7Cpromo%3A%20covid-19%20vaccines%20in%20new%20york%20modal; s_sq=%5B%5BB%5D%5D; utag_main=v_id:0177c8145dd600192c9589bacf9103079003207100942$_sn:9$_ss:0$_st:1614440768868$vapi_domain:cvs.com$_pn:3%3Bexp-session$ses_id:1614438200401%3Bexp-session"
+    }  
+  }
+}

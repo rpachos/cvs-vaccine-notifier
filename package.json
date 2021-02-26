@@ -1,0 +1,41 @@
+{
+  "name": "cvs-vaccine-notifier",
+  "version": "1.0.0",
+  "description": "Polls CVS website for vaccine availability and notifies via text message",
+  "main": "run-notify.js",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "@keyv/sqlite": "^2.0.2",
+    "bluebird": "^3.7.2",
+    "commander": "^7.1.0",
+    "config": "^3.3.4",
+    "debug": "^4.3.1",
+    "keyv": "^4.0.3",
+    "node-fetch": "^2.6.1",
+    "twilio": "^3.56.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "nock": "^13.0.9",
+    "sinon": "^9.2.4"
+  },
+  "scripts": {
+    "start": "node -r esm run-notify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpachos/cvs-vaccine-notifier.git"
+  },
+  "keywords": [
+    "vaccine",
+    "cvs",
+    "search"
+  ],
+  "author": "rob.pachos@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpachos/cvs-vaccine-notifier/issues"
+  },
+  "homepage": "https://github.com/rpachos/cvs-vaccine-notifier#readme"
+}
