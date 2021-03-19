@@ -1,4 +1,4 @@
-{
+export const getlocationDataResponse = () => ({
   "responsePayloadData":{
     "currentTime":"2021-03-06T19:36:24.354",
     "data":{
@@ -760,4 +760,4 @@
     "version":"1.0.0",
     "statusCode":"0000"
   }
-}
+});

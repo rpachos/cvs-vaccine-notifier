@@ -1,4 +1,4 @@
-export distanceMatrixResponse = {
+export const distanceMatrixResponse = (origin, destination, miles) => ({
   'destination_addresses': [
     'New York, NY, USA'
   ],
@@ -23,4 +23,4 @@ export distanceMatrixResponse = {
     }
   ],
   'status': 'OK'
-};
+});

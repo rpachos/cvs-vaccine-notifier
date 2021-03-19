@@ -1,0 +1,7 @@
+{
+  "timeout": 10000,
+  "recursive": true,
+  "exit": true,
+  "require": ["esm", "test/bootstrap.js"],
+  "ignore": "test/fixtures/*"
+}

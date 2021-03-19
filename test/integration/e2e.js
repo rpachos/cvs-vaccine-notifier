@@ -2,6 +2,9 @@ import { assert } from 'chai';
 import sinon from 'sinon';
 import nock from 'nock'
 
+import { distanceMatrixResponse } from '../fixtures/google';
+import { getLocationDataResponse } from '../fixtures/cvs';
+
 describe('Integration: E2E Flow', () => {
   let sandbox;
 
@@ -17,8 +20,9 @@ describe('Integration: E2E Flow', () => {
 
   });
 
-  context('', () => {
-    it('translates test phrases in namespace languages', async () => {
+  context('XX', () => {
+    it('WIP', async () => {
+      console.log('xx')
     });
   });
 });

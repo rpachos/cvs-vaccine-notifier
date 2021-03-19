@@ -10,18 +10,24 @@
     "commander": "^7.1.0",
     "config": "^3.3.4",
     "debug": "^4.3.1",
+    "esm": "^3.2.25",
     "keyv": "^4.0.3",
     "node-fetch": "^2.6.1",
     "twilio": "^3.56.0"
   },
   "devDependencies": {
+    "chai": "^4.3.3",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "mocha": "^8.3.0",
     "nock": "^13.0.9",
     "sinon": "^9.2.4"
   },
   "scripts": {
     "start": "node -r esm run-notify.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/integration",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
